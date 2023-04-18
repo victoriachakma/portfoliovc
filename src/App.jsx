@@ -7,9 +7,9 @@ function App() {
     <div className='bg-alice dark:bg-darkblue transition duration-500'>
     <BrowserRouter>
       <Routes>
-        <Route path="/portfolio" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<Home />}/>
-          <Route path="/portfolio/About" element={<About />} />
+          <Route path="/About" element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>
